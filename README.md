@@ -17,10 +17,10 @@
 
 > TODO: Create a table of contents here.  Each line should be a clickable link to each part of this document or another file containing the questions and answers. One item per line.
 
-[Basics](#basics)    
+[Basics](#basics)</br>
 [Adding and Changing Things](#adding-and-changing-things)    
-[Next Section (todo: Fix This)](#next-section)    
-[Next Section (todo: Fix This)](#next-next-section)    
+[Undo Changes and Recover Files](#undo-changes-and-recover-files)    
+[Viewing Commits](#viewing-commits)    
 [Commands for Remotes](remote-commands.md)   
 [Favorites](#favorites)     
 [Resources](#resources)
@@ -30,7 +30,7 @@
 In this file, directory paths are written with a forward slash as on MacOS, Linux, and the Windows-Bash shell: `/dir1/dir2/somefile`.    
 
 
-## Basics
+# Basics
 
 1. When using Git locally, what are these?  Define each one in a sentence
    * Staging area -
