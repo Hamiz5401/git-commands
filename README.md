@@ -237,7 +237,7 @@ test/
 ## Resources
 
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
-[Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
+[Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands. </br>
 [เรียนรู้พื้นฐานการใช้งาน Git & GitHub](https://youtu.be/RR_Ih6d71YA) A git tutorial video by Patiphan Phengpao which explained in Thai and is easy to understand.
 
 Try Git:
