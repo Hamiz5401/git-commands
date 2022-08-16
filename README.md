@@ -81,11 +81,11 @@ test/
 
 5. Commit everything in the staging area to the repository.
    ```
-   git commit
+   git commit -m "committed"
    ```
 
 6. Describe 2 steps to configure the repository so git will ignore all files in the `out/` directory:
-   - open .gitignore
+   - create/open .gitignore
    - type out/ in .gitignore
 
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
@@ -106,7 +106,7 @@ test/
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
    ```
-   git rm src/c.py
+   git rm c.py
    ```
 
 
@@ -114,18 +114,18 @@ test/
 ## Undo Changes and Recover Files
 
 1.  Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
+      ```
+      git diff HEAD a.py
+      ```
+
+2. Display the differences between your *working copy* of `a.py` and the version in the *staging area*. (But, if a.py is not in the staging area this will compare working copy to HEAD revision):
    ```
    git diff a.py
    ```
 
-2. Display the differences between your *working copy* of `a.py` and the version in the *staging area*. (But, if a.py is not in the staging area this will compare working copy to HEAD revision):
-   ```
-   git diff --staged a.py
-   ```
-
 3. **View changes to be committed:** Display the differences between files in the staging area and the versions in the repository. (You can also specify a file name to compare just one file.) 
    ```
-   git status
+   git diff --staged 
    ```
 
 4. **Undo "git add":** If `main.py` has been added to the staging area (`git add main.py`), remove it from the staging area:
