@@ -1,3 +1,9 @@
+# Quick Guide to Git
+
+By Kittiporn Theamnooch
+
+***For The Impatient.***
+
 ## Using Git
 
 [Basics](#basics)</br>
