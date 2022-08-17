@@ -2,7 +2,7 @@
 
 By Kittiporn Theamnooch
 
-"CHANGES changes"
+***For The Impatient.***
 
 ## Using Git
 
