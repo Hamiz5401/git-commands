@@ -1,3 +1,9 @@
+# Quick Guide to Git
+
+By Kittiporn Theamnooch
+
+"CHANGES changes"
+
 ## Using Git
 
 [Basics](#basics)</br>
