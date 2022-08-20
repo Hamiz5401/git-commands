@@ -29,8 +29,8 @@
 5. (Create a local tracking branch for a remote branch) The remote repository (`origin`) has a branch named `e2e-test` that you don't have in your local repository.   
    The command to create a new local branch as a copy of the remote `e2e-test` branch that **tracks** the remote branch is:
    ```
-   TODO There are many commands that will do this.
-   You may write one or more than one.
+   git branch -t new-branch origin/remote-new-branch
+   (might have to use git fetch for local to know that there is a new branch in the remote)
    ```
 
 6. Consider this situation:
@@ -67,5 +67,6 @@
 
 
 9. After adding the remote named `bitbucket`, the command to push your master branch to `bitbucket` is:
-
-
+   ```
+   git push -u
+   ```
