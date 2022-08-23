@@ -20,7 +20,6 @@
    Explain this error.
    > This error occur because in the remote repo the branch "dev-foo" hasn't been created yet only in local repo that "dev-foo" has been created.
 
-
 4. The command to push `dev-foo` to `origin` as a **new remote branch** on `origin` is:
    ```
    git push -u origin dev-foo
@@ -45,8 +44,6 @@
    > use ``` git fetch ``` so your local master will be tracking the same content as origin/main then use ```git merge```
    > and this will display what changes you want to keep and after you select which changes you want you can add the file and 
    > commit then push to remote repo.
-
-
 
 7. The command to change the URL of the remote "origin" to a new URL, such as `https://hostname/newuser/new-repo-name`, is:
    ```
